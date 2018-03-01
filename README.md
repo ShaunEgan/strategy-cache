@@ -18,3 +18,6 @@ const answer = cache.getOrSet(key, ttl, calculate)
 
 See the integration tests for more usage examples.
 
+## Strategies
+
+See the [doc](./doc) for other strategies and how to use them.

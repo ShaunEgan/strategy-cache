@@ -1,5 +1,6 @@
 src/
 test/
+doc/
 node_modules/
 .idea
 .git
