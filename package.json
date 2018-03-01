@@ -1,6 +1,6 @@
 {
   "name": "strategy-cache",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A package for providing caching",
   "main": "dist/index.js",
   "scripts": {

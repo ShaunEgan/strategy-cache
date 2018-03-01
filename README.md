@@ -20,4 +20,4 @@ See the integration tests for more usage examples.
 
 ## Strategies
 
-See the [doc](./doc) for other strategies and how to use them.
+See the [doc](https://github.com/ShaunEgan/strategy-cache/tree/master/doc) for other strategies and how to use them.
