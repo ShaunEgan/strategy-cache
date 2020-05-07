@@ -1,10 +1,10 @@
-import { default as sinon } from 'sinon'
+import { createSandbox } from 'sinon'
 import { Cache } from '../../src/Cache'
 import { AbstractCacheStrategy } from '../../src/CacheStrategies/AbstractCacheStrategy'
 import { CacheNotFoundError } from '../../src/Errors/CacheNotFoundError'
 
 describe('Cache', () => {
-  const sandbox = sinon.sandbox.create()
+  const sandbox = createSandbox()
 
   const keys = ['left', 'right']
   const left = { direction: 'left' }

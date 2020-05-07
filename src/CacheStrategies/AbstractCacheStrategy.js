@@ -1,3 +1,6 @@
+/* eslint-disable */
+// @TODO this was meant to work as a basic abstract. This project will be reworked into typescript
+
 const rejectBaseClassUsage = method => Promise.reject(`Called #${method} on base class AbstractCacheStrategy`)
 
 /**

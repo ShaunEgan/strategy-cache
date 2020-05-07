@@ -1,8 +1,8 @@
+import { CacheNotFoundError } from './Errors/CacheNotFoundError'
+
 /**
  * Cache
  */
-import { CacheNotFoundError } from './Errors/CacheNotFoundError'
-
 class Cache {
   /**
    * Constructor.
@@ -83,8 +83,7 @@ class Cache {
 
     const getOperations = keys.map((key, index) => this.get(key)
       .catch(mapCacheNotFoundErrorToNull)
-      .then(mapResultToNamedData(index))
-    )
+      .then(mapResultToNamedData(index)))
 
 
     return Promise.all(getOperations)
